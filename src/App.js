@@ -129,7 +129,7 @@ function Index() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/65114340033-midterm">
       <Container className="p-3 my-3 bg-light">
         <Routes>
           <Route path="/" element={<Index />} />
